@@ -5,7 +5,7 @@ const HighlightedHoroscope = ({data}) => {
   const {id, name, init_date, end_date, prediction, image} = data;
 
   return (
-    <Card key={data.id} sx={{display: "flex", m: 2}}>
+    <Card key={id} sx={{display: "flex", m: 2}}>
       <CardMedia
         component="img"
         sx={{width: "20%", p: 1, display: "flex", m: 1, minHeight: 100, boxShadow: 3}}

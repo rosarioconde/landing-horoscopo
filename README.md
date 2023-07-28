@@ -15,7 +15,9 @@ Clona este repositorio en tu máquina local
 ### Paso 2: Instalar dependencias
 
 Ingresa al directorio del proyecto e instala las dependencias utilizando npm:
+
 cd landing-horoscopo
+
 npm install
 
 ### Paso 3: Ejecutar la aplicación 🚀
